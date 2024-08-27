@@ -1,0 +1,31 @@
+//
+//  CustomViewsList.swift
+//  SwiftUI-LearningSpace
+//
+//  Created by Ahmad Remote on 8/26/24.
+//
+
+import SwiftUI
+
+struct CustomViewsList: View {
+    var listOfViewLabels = ["Wedge"]
+    var listOfViews = [ShowWedge()]
+    var body: some View {
+        NavigationStack
+        {
+            List
+            {
+                ForEach(0..<listOfViewLabels.count, id: \.self) { index in
+                    NavigationLink(listOfViewLabels[index])
+                    {
+                        listOfViews[index]
+                    }
+                }
+            }
+        }
+    }
+}
+
+#Preview {
+    CustomViewsList()
+}

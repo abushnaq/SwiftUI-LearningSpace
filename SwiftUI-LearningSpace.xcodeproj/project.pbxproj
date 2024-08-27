@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		7F3A0D432C77D4C8005F4B2C /* SwiftUI_LearningSpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D422C77D4C8005F4B2C /* SwiftUI_LearningSpaceApp.swift */; };
-		7F3A0D452C77D4C8005F4B2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D442C77D4C8005F4B2C /* ContentView.swift */; };
+		7F3A0D452C77D4C8005F4B2C /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D442C77D4C8005F4B2C /* ContentView2.swift */; };
 		7F3A0D472C77D4C8005F4B2C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D462C77D4C8005F4B2C /* Item.swift */; };
 		7F3A0D492C77D4CA005F4B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3A0D482C77D4CA005F4B2C /* Assets.xcassets */; };
 		7F3A0D4C2C77D4CA005F4B2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3A0D4B2C77D4CA005F4B2C /* Preview Assets.xcassets */; };
 		7F3A0D562C77D4CA005F4B2C /* SwiftUI_LearningSpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D552C77D4CA005F4B2C /* SwiftUI_LearningSpaceTests.swift */; };
 		7F3A0D602C77D4CA005F4B2C /* SwiftUI_LearningSpaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D5F2C77D4CA005F4B2C /* SwiftUI_LearningSpaceUITests.swift */; };
 		7F3A0D622C77D4CA005F4B2C /* SwiftUI_LearningSpaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D612C77D4CA005F4B2C /* SwiftUI_LearningSpaceUITestsLaunchTests.swift */; };
+		7F3A0D6F2C77D9BA005F4B2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D6E2C77D9BA005F4B2C /* ContentView.swift */; };
+		7F3A0D712C77DC71005F4B2C /* SpinWithDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D702C77DC71005F4B2C /* SpinWithDragGesture.swift */; };
+		7F3A0D732C77DE83005F4B2C /* CustomAnimationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D722C77DE83005F4B2C /* CustomAnimationList.swift */; };
+		7F568C4B2C7D095600CDFA3D /* CustomViewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4A2C7D095600CDFA3D /* CustomViewsList.swift */; };
+		7F568C4D2C7D09CA00CDFA3D /* ShowWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4C2C7D09CA00CDFA3D /* ShowWedge.swift */; };
+		7F568C4F2C7D09DF00CDFA3D /* LabeledWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4E2C7D09DF00CDFA3D /* LabeledWedge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,7 @@
 /* Begin PBXFileReference section */
 		7F3A0D3F2C77D4C8005F4B2C /* SwiftUI-LearningSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-LearningSpace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F3A0D422C77D4C8005F4B2C /* SwiftUI_LearningSpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningSpaceApp.swift; sourceTree = "<group>"; };
-		7F3A0D442C77D4C8005F4B2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F3A0D442C77D4C8005F4B2C /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		7F3A0D462C77D4C8005F4B2C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		7F3A0D482C77D4CA005F4B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F3A0D4B2C77D4CA005F4B2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +52,12 @@
 		7F3A0D5B2C77D4CA005F4B2C /* SwiftUI-LearningSpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-LearningSpaceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F3A0D5F2C77D4CA005F4B2C /* SwiftUI_LearningSpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningSpaceUITests.swift; sourceTree = "<group>"; };
 		7F3A0D612C77D4CA005F4B2C /* SwiftUI_LearningSpaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningSpaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F3A0D6E2C77D9BA005F4B2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F3A0D702C77DC71005F4B2C /* SpinWithDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWithDragGesture.swift; sourceTree = "<group>"; };
+		7F3A0D722C77DE83005F4B2C /* CustomAnimationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationList.swift; sourceTree = "<group>"; };
+		7F568C4A2C7D095600CDFA3D /* CustomViewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewsList.swift; sourceTree = "<group>"; };
+		7F568C4C2C7D09CA00CDFA3D /* ShowWedge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWedge.swift; sourceTree = "<group>"; };
+		7F568C4E2C7D09DF00CDFA3D /* LabeledWedge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledWedge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +109,15 @@
 			isa = PBXGroup;
 			children = (
 				7F3A0D422C77D4C8005F4B2C /* SwiftUI_LearningSpaceApp.swift */,
-				7F3A0D442C77D4C8005F4B2C /* ContentView.swift */,
+				7F3A0D442C77D4C8005F4B2C /* ContentView2.swift */,
 				7F3A0D462C77D4C8005F4B2C /* Item.swift */,
 				7F3A0D482C77D4CA005F4B2C /* Assets.xcassets */,
 				7F3A0D4A2C77D4CA005F4B2C /* Preview Content */,
+				7F3A0D6E2C77D9BA005F4B2C /* ContentView.swift */,
+				7F3A0D702C77DC71005F4B2C /* SpinWithDragGesture.swift */,
+				7F7ACF442C78CAF0005F9FB7 /* CustomLists */,
+				7F568C4C2C7D09CA00CDFA3D /* ShowWedge.swift */,
+				7F568C4E2C7D09DF00CDFA3D /* LabeledWedge.swift */,
 			);
 			path = "SwiftUI-LearningSpace";
 			sourceTree = "<group>";
@@ -128,6 +145,15 @@
 				7F3A0D612C77D4CA005F4B2C /* SwiftUI_LearningSpaceUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI-LearningSpaceUITests";
+			sourceTree = "<group>";
+		};
+		7F7ACF442C78CAF0005F9FB7 /* CustomLists */ = {
+			isa = PBXGroup;
+			children = (
+				7F3A0D722C77DE83005F4B2C /* CustomAnimationList.swift */,
+				7F568C4A2C7D095600CDFA3D /* CustomViewsList.swift */,
+			);
+			path = CustomLists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F3A0D452C77D4C8005F4B2C /* ContentView.swift in Sources */,
+				7F3A0D452C77D4C8005F4B2C /* ContentView2.swift in Sources */,
 				7F3A0D472C77D4C8005F4B2C /* Item.swift in Sources */,
+				7F3A0D6F2C77D9BA005F4B2C /* ContentView.swift in Sources */,
+				7F568C4F2C7D09DF00CDFA3D /* LabeledWedge.swift in Sources */,
+				7F3A0D712C77DC71005F4B2C /* SpinWithDragGesture.swift in Sources */,
 				7F3A0D432C77D4C8005F4B2C /* SwiftUI_LearningSpaceApp.swift in Sources */,
+				7F568C4B2C7D095600CDFA3D /* CustomViewsList.swift in Sources */,
+				7F3A0D732C77DE83005F4B2C /* CustomAnimationList.swift in Sources */,
+				7F568C4D2C7D09CA00CDFA3D /* ShowWedge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
