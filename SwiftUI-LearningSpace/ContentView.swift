@@ -23,6 +23,12 @@ struct ContentView: View {
                     Text("Custom Views")
                 }
                 .tag(2)
+//            OtherList()
+//                .tabItem {
+//                    Image(systemName: "3.circle")
+//                    Text("Others")
+//                }
+//                .tag(3)
             }
     }
 }

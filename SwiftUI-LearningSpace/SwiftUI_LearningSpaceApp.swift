@@ -7,6 +7,8 @@
 
 import SwiftUI
 import SwiftData
+import ComposableArchitecture
+import XCTestDynamicOverlay
 
 @main
 struct SwiftUI_LearningSpaceApp: App {
@@ -22,10 +24,17 @@ struct SwiftUI_LearningSpaceApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
-
+    @State var store = Store(initialState: ContactsFeature.State()) {
+        ContactsFeature()
+            ._printChanges()
+      }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if !_XCTIsTesting {
+                ContactsView(
+                    store: self.store
+                )
+            }
         }
         .modelContainer(sharedModelContainer)
     }

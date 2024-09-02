@@ -1,0 +1,41 @@
+{
+  "configurations" : [
+    {
+      "id" : "F5687B45-3870-45F4-8A1A-728C39B9D0DF",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SwiftUI-LearningSpace.xcodeproj",
+      "identifier" : "7F3A0D3E2C77D4C8005F4B2C",
+      "name" : "SwiftUI-LearningSpace"
+    }
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "CounterFeatureTests\/testCounter()",
+        "CounterFeatureTests\/testTimer()"
+      ],
+      "target" : {
+        "containerPath" : "container:SwiftUI-LearningSpace.xcodeproj",
+        "identifier" : "7F3A0D502C77D4CA005F4B2C",
+        "name" : "SwiftUI-LearningSpaceTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SwiftUI-LearningSpace.xcodeproj",
+        "identifier" : "7F3A0D5A2C77D4CA005F4B2C",
+        "name" : "SwiftUI-LearningSpaceUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
