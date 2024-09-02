@@ -9,11 +9,10 @@ import SwiftUI
 import ComposableArchitecture
 
 struct OtherList: View {
-    var listOfViewLabels = ["First TCA Demo"]
-    var listOfViews = [TCADemo(store: Store(initialState: CounterFeature.State()) {
-        CounterFeature()
-      }
-    )]
+    var listOfViewLabels = ["Contacts TCA Demo"]
+    var listOfViews = [ContactsView(store: Store(initialState: ContactsFeature.State()) {
+        ContactsFeature()
+      })]
     var body: some View {
         NavigationStack
         {
