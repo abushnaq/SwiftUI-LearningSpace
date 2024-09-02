@@ -17,6 +17,8 @@
 		7F3A0D6F2C77D9BA005F4B2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D6E2C77D9BA005F4B2C /* ContentView.swift */; };
 		7F3A0D712C77DC71005F4B2C /* SpinWithDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D702C77DC71005F4B2C /* SpinWithDragGesture.swift */; };
 		7F3A0D732C77DE83005F4B2C /* CustomAnimationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D722C77DE83005F4B2C /* CustomAnimationList.swift */; };
+		7F4553812C861B2E006AB6CC /* CutImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4553802C861B2E006AB6CC /* CutImage.swift */; };
+		7F4553832C861E75006AB6CC /* Test.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4553822C861E75006AB6CC /* Test.png */; };
 		7F568C4B2C7D095600CDFA3D /* CustomViewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4A2C7D095600CDFA3D /* CustomViewsList.swift */; };
 		7F568C4D2C7D09CA00CDFA3D /* ShowWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4C2C7D09CA00CDFA3D /* ShowWedge.swift */; };
 		7F568C4F2C7D09DF00CDFA3D /* LabeledWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4E2C7D09DF00CDFA3D /* LabeledWedge.swift */; };
@@ -62,6 +64,8 @@
 		7F3A0D6E2C77D9BA005F4B2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F3A0D702C77DC71005F4B2C /* SpinWithDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWithDragGesture.swift; sourceTree = "<group>"; };
 		7F3A0D722C77DE83005F4B2C /* CustomAnimationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationList.swift; sourceTree = "<group>"; };
+		7F4553802C861B2E006AB6CC /* CutImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutImage.swift; sourceTree = "<group>"; };
+		7F4553822C861E75006AB6CC /* Test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Test.png; sourceTree = "<group>"; };
 		7F568C4A2C7D095600CDFA3D /* CustomViewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewsList.swift; sourceTree = "<group>"; };
 		7F568C4C2C7D09CA00CDFA3D /* ShowWedge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWedge.swift; sourceTree = "<group>"; };
 		7F568C4E2C7D09DF00CDFA3D /* LabeledWedge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledWedge.swift; sourceTree = "<group>"; };
@@ -126,15 +130,16 @@
 			isa = PBXGroup;
 			children = (
 				7FE3F2552C7E6C6C00A6CEB4 /* Info.plist */,
+				7F4553802C861B2E006AB6CC /* CutImage.swift */,
 				7F45537F2C86185F006AB6CC /* CustomAnimations */,
 				7FE3F24E2C7E618600A6CEB4 /* TCA */,
 				7F3A0D422C77D4C8005F4B2C /* SwiftUI_LearningSpaceApp.swift */,
 				7F3A0D482C77D4CA005F4B2C /* Assets.xcassets */,
+				7F4553822C861E75006AB6CC /* Test.png */,
 				7F3A0D4A2C77D4CA005F4B2C /* Preview Content */,
 				7F3A0D6E2C77D9BA005F4B2C /* ContentView.swift */,
 				7F7ACF442C78CAF0005F9FB7 /* CustomLists */,
 				7F45537E2C861849006AB6CC /* CustomViews */,
-				7FB5471C2C80D392008EBA9F /* AppFeature.swift */,
 			);
 			path = "SwiftUI-LearningSpace";
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 		7FE3F24E2C7E618600A6CEB4 /* TCA */ = {
 			isa = PBXGroup;
 			children = (
+				7FB5471C2C80D392008EBA9F /* AppFeature.swift */,
 				7FB547222C80E470008EBA9F /* AddContactFeature.swift */,
 				7FB547202C80E30D008EBA9F /* ContactsFeature.swift */,
 				7FE3F24F2C7E619200A6CEB4 /* TCADemo.swift */,
@@ -314,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4553832C861E75006AB6CC /* Test.png in Resources */,
 				7F3A0D4C2C77D4CA005F4B2C /* Preview Assets.xcassets in Resources */,
 				7F3A0D492C77D4CA005F4B2C /* Assets.xcassets in Resources */,
 			);
@@ -340,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4553812C861B2E006AB6CC /* CutImage.swift in Sources */,
 				7FE3F24D2C7E615000A6CEB4 /* OtherList.swift in Sources */,
 				7FB547232C80E470008EBA9F /* AddContactFeature.swift in Sources */,
 				7FE3F2522C7E61A200A6CEB4 /* CounterFeature.swift in Sources */,

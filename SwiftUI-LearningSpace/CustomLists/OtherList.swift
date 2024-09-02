@@ -13,6 +13,10 @@ struct OtherList: View {
     var listOfViews = [ContactsView(store: Store(initialState: ContactsFeature.State()) {
         ContactsFeature()
       })]
+    
+    var listOfViewLabels2 = ["Cut Image"]
+    var listOfViews2 = [CutImage()]
+    
     var body: some View {
         NavigationStack
         {
@@ -22,6 +26,12 @@ struct OtherList: View {
                     NavigationLink(listOfViewLabels[index])
                     {
                         listOfViews[index]
+                    }
+                }
+                ForEach(0..<listOfViewLabels2.count, id: \.self) { index in
+                    NavigationLink(listOfViewLabels2[index])
+                    {
+                        listOfViews2[index]
                     }
                 }
             }
