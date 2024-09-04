@@ -7,135 +7,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1E789061-E982-4919-B530-971499C80216"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SwiftUI-LearningSpace/TCA/CounterFeature.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8336AA16-34D5-4A67-A6E9-C2BCE0EEAD90"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SwiftUI-LearningSpace/TCA/CounterFeature.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "8336AA16-34D5-4A67-A6E9-C2BCE0EEAD90 - 72e473b5682185a0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SwiftUI_LearningSpace.CounterFeature.Action&gt;) async throws -&gt; () in closure #1 (inout SwiftUI_LearningSpace.CounterFeature.State, SwiftUI_LearningSpace.CounterFeature.Action) -&gt; ComposableArchitecture.Effect&lt;SwiftUI_LearningSpace.CounterFeature.Action&gt; in SwiftUI_LearningSpace.CounterFeature.body.getter : some"
-                  moduleName = "SwiftUI-LearningSpace.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abushnaq-remote/Documents/code/native/SwiftUI-LearningSpace/SwiftUI-LearningSpace/TCA/CounterFeature.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49">
-               </Location>
-               <Location
-                  uuid = "8336AA16-34D5-4A67-A6E9-C2BCE0EEAD90 - a1108fbed05021b5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SwiftUI_LearningSpace.CounterFeature.Action&gt;) async throws -&gt; () in closure #1 (inout SwiftUI_LearningSpace.CounterFeature.State, SwiftUI_LearningSpace.CounterFeature.Action) -&gt; ComposableArchitecture.Effect&lt;SwiftUI_LearningSpace.CounterFeature.Action&gt; in SwiftUI_LearningSpace.CounterFeature.body.getter : some"
-                  moduleName = "SwiftUI-LearningSpace.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abushnaq-remote/Documents/code/native/SwiftUI-LearningSpace/SwiftUI-LearningSpace/TCA/CounterFeature.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49">
-               </Location>
-               <Location
-                  uuid = "8336AA16-34D5-4A67-A6E9-C2BCE0EEAD90 - 1274a42656ce49a6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SwiftUI_LearningSpace.CounterFeature.Action&gt;) async throws -&gt; () in closure #1 (inout SwiftUI_LearningSpace.CounterFeature.State, SwiftUI_LearningSpace.CounterFeature.Action) -&gt; ComposableArchitecture.Effect&lt;SwiftUI_LearningSpace.CounterFeature.Action&gt; in SwiftUI_LearningSpace.CounterFeature.body.getter : some"
-                  moduleName = "SwiftUI-LearningSpace.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abushnaq-remote/Documents/code/native/SwiftUI-LearningSpace/SwiftUI-LearningSpace/TCA/CounterFeature.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49">
-               </Location>
-               <Location
-                  uuid = "8336AA16-34D5-4A67-A6E9-C2BCE0EEAD90 - 218c8c6e2de1eba5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SwiftUI_LearningSpace.CounterFeature.Action&gt;) async throws -&gt; () in closure #1 (inout SwiftUI_LearningSpace.CounterFeature.State, SwiftUI_LearningSpace.CounterFeature.Action) -&gt; ComposableArchitecture.Effect&lt;SwiftUI_LearningSpace.CounterFeature.Action&gt; in SwiftUI_LearningSpace.CounterFeature.body.getter : some"
-                  moduleName = "SwiftUI-LearningSpace.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abushnaq-remote/Documents/code/native/SwiftUI-LearningSpace/SwiftUI-LearningSpace/TCA/CounterFeature.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49">
-               </Location>
-               <Location
-                  uuid = "8336AA16-34D5-4A67-A6E9-C2BCE0EEAD90 - 31c4d49784fb0da4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SwiftUI_LearningSpace.CounterFeature.Action&gt;) async throws -&gt; () in closure #1 (inout SwiftUI_LearningSpace.CounterFeature.State, SwiftUI_LearningSpace.CounterFeature.Action) -&gt; ComposableArchitecture.Effect&lt;SwiftUI_LearningSpace.CounterFeature.Action&gt; in SwiftUI_LearningSpace.CounterFeature.body.getter : some"
-                  moduleName = "SwiftUI-LearningSpace.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abushnaq-remote/Documents/code/native/SwiftUI-LearningSpace/SwiftUI-LearningSpace/TCA/CounterFeature.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "ACA0421A-78AB-48F4-AA71-B691CB57ED8C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SwiftUI-LearningSpaceTests/CounterFeatureTests.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CBC71030-A89A-43C0-9DD9-5E5EE68D5C46"
+            uuid = "E04BBCB0-D1F6-4632-820A-527130AA8C75"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftUI-LearningSpace/CutImage.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "image()"
             landmarkType = "7">
          </BreakpointContent>

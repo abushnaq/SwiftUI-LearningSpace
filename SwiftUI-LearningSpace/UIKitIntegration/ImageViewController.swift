@@ -53,7 +53,12 @@ class ImageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let images = image()
+        
+        let imageView = UIImageView(image: images[0])
+        
+        self.view.addSubview(imageView)
+        
         // Do any additional setup after loading the view.
     }
 
