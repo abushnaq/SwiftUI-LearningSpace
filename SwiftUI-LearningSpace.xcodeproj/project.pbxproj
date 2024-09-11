@@ -21,6 +21,10 @@
 		7F568C4B2C7D095600CDFA3D /* CustomViewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4A2C7D095600CDFA3D /* CustomViewsList.swift */; };
 		7F568C4D2C7D09CA00CDFA3D /* ShowWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4C2C7D09CA00CDFA3D /* ShowWedge.swift */; };
 		7F568C4F2C7D09DF00CDFA3D /* LabeledWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4E2C7D09DF00CDFA3D /* LabeledWedge.swift */; };
+		7F60AB9D2C8B4F1B00A8DAB6 /* ShowClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F60AB9C2C8B4F1A00A8DAB6 /* ShowClock.swift */; };
+		7F8B3F172C90B73A008491DE /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B3F162C90B73A008491DE /* CustomProgressBar.swift */; };
+		7F8B3F1A2C90CCD9008491DE /* ShowProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B3F192C90CCD9008491DE /* ShowProgress.swift */; };
+		7F8B3F1C2C90DBC9008491DE /* CircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B3F1B2C90DBC9008491DE /* CircleProgressBar.swift */; };
 		7FB5471D2C80D392008EBA9F /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5471C2C80D392008EBA9F /* AppFeature.swift */; };
 		7FB5471F2C80DA40008EBA9F /* AppFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5471E2C80DA40008EBA9F /* AppFeatureTests.swift */; };
 		7FB547212C80E30D008EBA9F /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB547202C80E30D008EBA9F /* ContactsFeature.swift */; };
@@ -70,6 +74,10 @@
 		7F568C4A2C7D095600CDFA3D /* CustomViewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewsList.swift; sourceTree = "<group>"; };
 		7F568C4C2C7D09CA00CDFA3D /* ShowWedge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWedge.swift; sourceTree = "<group>"; };
 		7F568C4E2C7D09DF00CDFA3D /* LabeledWedge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledWedge.swift; sourceTree = "<group>"; };
+		7F60AB9C2C8B4F1A00A8DAB6 /* ShowClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowClock.swift; sourceTree = "<group>"; };
+		7F8B3F162C90B73A008491DE /* CustomProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBar.swift; sourceTree = "<group>"; };
+		7F8B3F192C90CCD9008491DE /* ShowProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProgress.swift; sourceTree = "<group>"; };
+		7F8B3F1B2C90DBC9008491DE /* CircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBar.swift; sourceTree = "<group>"; };
 		7FB5471C2C80D392008EBA9F /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
 		7FB5471E2C80DA40008EBA9F /* AppFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeatureTests.swift; sourceTree = "<group>"; };
 		7FB547202C80E30D008EBA9F /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
@@ -178,6 +186,7 @@
 			children = (
 				7F568C4C2C7D09CA00CDFA3D /* ShowWedge.swift */,
 				7F568C4E2C7D09DF00CDFA3D /* LabeledWedge.swift */,
+				7F60AB9C2C8B4F1A00A8DAB6 /* ShowClock.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -186,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				7F3A0D702C77DC71005F4B2C /* SpinWithDragGesture.swift */,
+				7F8B3F182C90CCB0008491DE /* ProgressIndicators */,
 			);
 			path = CustomAnimations;
 			sourceTree = "<group>";
@@ -198,6 +208,16 @@
 				7FE3F24C2C7E615000A6CEB4 /* OtherList.swift */,
 			);
 			path = CustomLists;
+			sourceTree = "<group>";
+		};
+		7F8B3F182C90CCB0008491DE /* ProgressIndicators */ = {
+			isa = PBXGroup;
+			children = (
+				7F8B3F162C90B73A008491DE /* CustomProgressBar.swift */,
+				7F8B3F192C90CCD9008491DE /* ShowProgress.swift */,
+				7F8B3F1B2C90DBC9008491DE /* CircleProgressBar.swift */,
+			);
+			path = ProgressIndicators;
 			sourceTree = "<group>";
 		};
 		7FE2F0A52C88CAA90022799E /* UIKitIntegration */ = {
@@ -368,10 +388,14 @@
 				7FE3F2522C7E61A200A6CEB4 /* CounterFeature.swift in Sources */,
 				7F3A0D6F2C77D9BA005F4B2C /* ContentView.swift in Sources */,
 				7F568C4F2C7D09DF00CDFA3D /* LabeledWedge.swift in Sources */,
+				7F8B3F1A2C90CCD9008491DE /* ShowProgress.swift in Sources */,
+				7F60AB9D2C8B4F1B00A8DAB6 /* ShowClock.swift in Sources */,
+				7F8B3F1C2C90DBC9008491DE /* CircleProgressBar.swift in Sources */,
 				7F3A0D712C77DC71005F4B2C /* SpinWithDragGesture.swift in Sources */,
 				7F3A0D432C77D4C8005F4B2C /* SwiftUI_LearningSpaceApp.swift in Sources */,
 				7F568C4B2C7D095600CDFA3D /* CustomViewsList.swift in Sources */,
 				7FE3F2502C7E619200A6CEB4 /* TCADemo.swift in Sources */,
+				7F8B3F172C90B73A008491DE /* CustomProgressBar.swift in Sources */,
 				7F3A0D732C77DE83005F4B2C /* CustomAnimationList.swift in Sources */,
 				7F07D8D02C7F8124004CE5E6 /* NumberFactClient.swift in Sources */,
 				7FB547212C80E30D008EBA9F /* ContactsFeature.swift in Sources */,

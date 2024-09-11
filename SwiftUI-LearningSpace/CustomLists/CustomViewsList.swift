@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct CustomViewsList: View {
-    var listOfViewLabels = ["Wedge"]
-    var listOfViews = [ShowWedge()]
+    var listOfViewLabels = ["Clock"]//["Wedge", "Clock"]
+    var listOfViews = [ShowClock()]//[ShowWedge(), ShowClock()]
     var body: some View {
         NavigationStack
         {
