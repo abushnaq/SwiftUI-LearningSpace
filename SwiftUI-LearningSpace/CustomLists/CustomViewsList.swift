@@ -7,10 +7,7 @@
 
 import SwiftUI
 
-enum Screens {
-    case showWedge
-    case showClock
-}
+
 
 struct CustomViewsList: View {
     var listOfViewLabels = ["Wedge", "Clock"]
@@ -29,17 +26,7 @@ struct CustomViewsList: View {
                 }
             }
         }
-    }
-    @ViewBuilder
-        func navigate(to screen: Screens) -> some View {
-            switch screen {
-            case .showWedge:
-                ShowWedge()
-            case .showClock:
-                ShowClock()
-            }
-        }
-    
+    }        
 }
 
 #Preview {

@@ -9,14 +9,9 @@ import SwiftUI
 import ComposableArchitecture
 
 struct OtherList: View {
-    var listOfViewLabels = ["Contacts TCA Demo"]
-    var listOfViews = [ContactsView(store: Store(initialState: ContactsFeature.State()) {
-        ContactsFeature()
-      })]
-    
-    var listOfViewLabels2 = ["Cut Image"]
-    var listOfViews2 = [CutImage()]
-    
+    var listOfViewLabels = ["Contacts TCA Demo", "Cut Image", "Drag Drop"]
+    var listOfViews : [Screens] = [.tcaDemo, .cutImage, .dragDrop]
+
     var body: some View {
         NavigationStack
         {
@@ -25,15 +20,10 @@ struct OtherList: View {
                 ForEach(0..<listOfViewLabels.count, id: \.self) { index in
                     NavigationLink(listOfViewLabels[index])
                     {
-                        listOfViews[index]
+                        navigate(to: listOfViews[index])                        
                     }
                 }
-                ForEach(0..<listOfViewLabels2.count, id: \.self) { index in
-                    NavigationLink(listOfViewLabels2[index])
-                    {
-                        listOfViews2[index]
-                    }
-                }
+                
             }
         }
     }

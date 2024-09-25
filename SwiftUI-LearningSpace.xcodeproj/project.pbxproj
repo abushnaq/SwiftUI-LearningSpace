@@ -18,6 +18,7 @@
 		7F3A0D712C77DC71005F4B2C /* SpinWithDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D702C77DC71005F4B2C /* SpinWithDragGesture.swift */; };
 		7F3A0D732C77DE83005F4B2C /* CustomAnimationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D722C77DE83005F4B2C /* CustomAnimationList.swift */; };
 		7F4553812C861B2E006AB6CC /* CutImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4553802C861B2E006AB6CC /* CutImage.swift */; };
+		7F4801902C9234990081E6FB /* LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F48018F2C9234990081E6FB /* LoadingBar.swift */; };
 		7F568C4B2C7D095600CDFA3D /* CustomViewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4A2C7D095600CDFA3D /* CustomViewsList.swift */; };
 		7F568C4D2C7D09CA00CDFA3D /* ShowWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4C2C7D09CA00CDFA3D /* ShowWedge.swift */; };
 		7F568C4F2C7D09DF00CDFA3D /* LabeledWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4E2C7D09DF00CDFA3D /* LabeledWedge.swift */; };
@@ -25,6 +26,8 @@
 		7F8B3F172C90B73A008491DE /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B3F162C90B73A008491DE /* CustomProgressBar.swift */; };
 		7F8B3F1A2C90CCD9008491DE /* ShowProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B3F192C90CCD9008491DE /* ShowProgress.swift */; };
 		7F8B3F1C2C90DBC9008491DE /* CircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B3F1B2C90DBC9008491DE /* CircleProgressBar.swift */; };
+		7F8EB8A52CA449CC00E2A07E /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8EB8A42CA449CC00E2A07E /* Shared.swift */; };
+		7F8EB8A82CA44F6E00E2A07E /* DragAndDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8EB8A72CA44F6E00E2A07E /* DragAndDrop.swift */; };
 		7FB5471D2C80D392008EBA9F /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5471C2C80D392008EBA9F /* AppFeature.swift */; };
 		7FB5471F2C80DA40008EBA9F /* AppFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5471E2C80DA40008EBA9F /* AppFeatureTests.swift */; };
 		7FB547212C80E30D008EBA9F /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB547202C80E30D008EBA9F /* ContactsFeature.swift */; };
@@ -71,6 +74,7 @@
 		7F3A0D702C77DC71005F4B2C /* SpinWithDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWithDragGesture.swift; sourceTree = "<group>"; };
 		7F3A0D722C77DE83005F4B2C /* CustomAnimationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationList.swift; sourceTree = "<group>"; };
 		7F4553802C861B2E006AB6CC /* CutImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutImage.swift; sourceTree = "<group>"; };
+		7F48018F2C9234990081E6FB /* LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBar.swift; sourceTree = "<group>"; };
 		7F568C4A2C7D095600CDFA3D /* CustomViewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewsList.swift; sourceTree = "<group>"; };
 		7F568C4C2C7D09CA00CDFA3D /* ShowWedge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWedge.swift; sourceTree = "<group>"; };
 		7F568C4E2C7D09DF00CDFA3D /* LabeledWedge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledWedge.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 		7F8B3F162C90B73A008491DE /* CustomProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBar.swift; sourceTree = "<group>"; };
 		7F8B3F192C90CCD9008491DE /* ShowProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProgress.swift; sourceTree = "<group>"; };
 		7F8B3F1B2C90DBC9008491DE /* CircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBar.swift; sourceTree = "<group>"; };
+		7F8EB8A42CA449CC00E2A07E /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		7F8EB8A72CA44F6E00E2A07E /* DragAndDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDrop.swift; sourceTree = "<group>"; };
 		7FB5471C2C80D392008EBA9F /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
 		7FB5471E2C80DA40008EBA9F /* AppFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeatureTests.swift; sourceTree = "<group>"; };
 		7FB547202C80E30D008EBA9F /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
@@ -141,6 +147,7 @@
 		7F3A0D412C77D4C8005F4B2C /* SwiftUI-LearningSpace */ = {
 			isa = PBXGroup;
 			children = (
+				7F8EB8A62CA44F5B00E2A07E /* Other */,
 				7FE3F2552C7E6C6C00A6CEB4 /* Info.plist */,
 				7FE2F0A52C88CAA90022799E /* UIKitIntegration */,
 				7F45537F2C86185F006AB6CC /* CustomAnimations */,
@@ -206,6 +213,7 @@
 				7F3A0D722C77DE83005F4B2C /* CustomAnimationList.swift */,
 				7F568C4A2C7D095600CDFA3D /* CustomViewsList.swift */,
 				7FE3F24C2C7E615000A6CEB4 /* OtherList.swift */,
+				7F8EB8A42CA449CC00E2A07E /* Shared.swift */,
 			);
 			path = CustomLists;
 			sourceTree = "<group>";
@@ -216,8 +224,17 @@
 				7F8B3F162C90B73A008491DE /* CustomProgressBar.swift */,
 				7F8B3F192C90CCD9008491DE /* ShowProgress.swift */,
 				7F8B3F1B2C90DBC9008491DE /* CircleProgressBar.swift */,
+				7F48018F2C9234990081E6FB /* LoadingBar.swift */,
 			);
 			path = ProgressIndicators;
+			sourceTree = "<group>";
+		};
+		7F8EB8A62CA44F5B00E2A07E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7F8EB8A72CA44F6E00E2A07E /* DragAndDrop.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		7FE2F0A52C88CAA90022799E /* UIKitIntegration */ = {
@@ -383,6 +400,7 @@
 			files = (
 				7F4553812C861B2E006AB6CC /* CutImage.swift in Sources */,
 				7FE3F24D2C7E615000A6CEB4 /* OtherList.swift in Sources */,
+				7F8EB8A82CA44F6E00E2A07E /* DragAndDrop.swift in Sources */,
 				7FB547232C80E470008EBA9F /* AddContactFeature.swift in Sources */,
 				7FE2F0AB2C88CD740022799E /* ImageViewController.swift in Sources */,
 				7FE3F2522C7E61A200A6CEB4 /* CounterFeature.swift in Sources */,
@@ -395,6 +413,7 @@
 				7F3A0D432C77D4C8005F4B2C /* SwiftUI_LearningSpaceApp.swift in Sources */,
 				7F568C4B2C7D095600CDFA3D /* CustomViewsList.swift in Sources */,
 				7FE3F2502C7E619200A6CEB4 /* TCADemo.swift in Sources */,
+				7F4801902C9234990081E6FB /* LoadingBar.swift in Sources */,
 				7F8B3F172C90B73A008491DE /* CustomProgressBar.swift in Sources */,
 				7F3A0D732C77DE83005F4B2C /* CustomAnimationList.swift in Sources */,
 				7F07D8D02C7F8124004CE5E6 /* NumberFactClient.swift in Sources */,
@@ -402,6 +421,7 @@
 				7FE2F0A72C88CAED0022799E /* UIImageHolder.swift in Sources */,
 				7FB5471D2C80D392008EBA9F /* AppFeature.swift in Sources */,
 				7F568C4D2C7D09CA00CDFA3D /* ShowWedge.swift in Sources */,
+				7F8EB8A52CA449CC00E2A07E /* Shared.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

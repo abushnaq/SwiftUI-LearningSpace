@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct CustomAnimationList: View {
-    var listOfAnimations = ["Circle progress bar"]//["Circle path on spin", "Circle progress bar"]
-    var listOfViews = [ShowProgress()]//[SpinWithDragGesture(), CustomProgressBar()]
+    var listOfAnimations = ["Circle path on spin", "Circle progress bar"]
+    var listOfViews : [Screens] = [.spinWithDragGesture, .showProgress]
     var body: some View {
         NavigationStack
         {
@@ -18,12 +18,12 @@ struct CustomAnimationList: View {
                 ForEach(0...listOfAnimations.count-1, id: \.self) { index in
                     NavigationLink(listOfAnimations[index])
                     {
-                        listOfViews[index]
+                        navigate(to: listOfViews[index])
                     }
                 }
             }
         }
-    }
+    }    
 }
 
 #Preview {
