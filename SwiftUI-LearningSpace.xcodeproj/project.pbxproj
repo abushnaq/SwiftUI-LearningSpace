@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F0369F52CA5A096003C3221 /* CalendarIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0369F42CA5A096003C3221 /* CalendarIntegration.swift */; };
+		7F0369F82CA5F379003C3221 /* EventKitUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0369F72CA5F379003C3221 /* EventKitUIController.swift */; };
 		7F07D8D02C7F8124004CE5E6 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07D8CF2C7F8124004CE5E6 /* NumberFactClient.swift */; };
 		7F3A0D432C77D4C8005F4B2C /* SwiftUI_LearningSpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A0D422C77D4C8005F4B2C /* SwiftUI_LearningSpaceApp.swift */; };
 		7F3A0D492C77D4CA005F4B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3A0D482C77D4CA005F4B2C /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 		7F568C4D2C7D09CA00CDFA3D /* ShowWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4C2C7D09CA00CDFA3D /* ShowWedge.swift */; };
 		7F568C4F2C7D09DF00CDFA3D /* LabeledWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F568C4E2C7D09DF00CDFA3D /* LabeledWedge.swift */; };
 		7F60AB9D2C8B4F1B00A8DAB6 /* ShowClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F60AB9C2C8B4F1A00A8DAB6 /* ShowClock.swift */; };
+		7F8909772CA49E4900415895 /* Sunset.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7F8909762CA49E4900415895 /* Sunset.mp4 */; };
+		7F8909792CA49EC100415895 /* PlayVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8909782CA49EC100415895 /* PlayVideo.swift */; };
 		7F8B3F172C90B73A008491DE /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B3F162C90B73A008491DE /* CustomProgressBar.swift */; };
 		7F8B3F1A2C90CCD9008491DE /* ShowProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B3F192C90CCD9008491DE /* ShowProgress.swift */; };
 		7F8B3F1C2C90DBC9008491DE /* CircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B3F1B2C90DBC9008491DE /* CircleProgressBar.swift */; };
@@ -59,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F0369F42CA5A096003C3221 /* CalendarIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarIntegration.swift; sourceTree = "<group>"; };
+		7F0369F72CA5F379003C3221 /* EventKitUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitUIController.swift; sourceTree = "<group>"; };
 		7F07D8CF2C7F8124004CE5E6 /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
 		7F2620A12C7E76C40064CF68 /* SwiftUI-LearningSpace.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftUI-LearningSpace.xctestplan"; sourceTree = "<group>"; };
 		7F3A0D3F2C77D4C8005F4B2C /* SwiftUI-LearningSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-LearningSpace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +85,8 @@
 		7F568C4C2C7D09CA00CDFA3D /* ShowWedge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWedge.swift; sourceTree = "<group>"; };
 		7F568C4E2C7D09DF00CDFA3D /* LabeledWedge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledWedge.swift; sourceTree = "<group>"; };
 		7F60AB9C2C8B4F1A00A8DAB6 /* ShowClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowClock.swift; sourceTree = "<group>"; };
+		7F8909762CA49E4900415895 /* Sunset.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sunset.mp4; sourceTree = "<group>"; };
+		7F8909782CA49EC100415895 /* PlayVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideo.swift; sourceTree = "<group>"; };
 		7F8B3F162C90B73A008491DE /* CustomProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBar.swift; sourceTree = "<group>"; };
 		7F8B3F192C90CCD9008491DE /* ShowProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProgress.swift; sourceTree = "<group>"; };
 		7F8B3F1B2C90DBC9008491DE /* CircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBar.swift; sourceTree = "<group>"; };
@@ -123,6 +131,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F0369F62CA5A772003C3221 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				7F0369F42CA5A096003C3221 /* CalendarIntegration.swift */,
+				7F0369F72CA5F379003C3221 /* EventKitUIController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
 		7F3A0D362C77D4C7005F4B2C = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +164,7 @@
 		7F3A0D412C77D4C8005F4B2C /* SwiftUI-LearningSpace */ = {
 			isa = PBXGroup;
 			children = (
+				7F8909762CA49E4900415895 /* Sunset.mp4 */,
 				7F8EB8A62CA44F5B00E2A07E /* Other */,
 				7FE3F2552C7E6C6C00A6CEB4 /* Info.plist */,
 				7FE2F0A52C88CAA90022799E /* UIKitIntegration */,
@@ -233,6 +251,8 @@
 			isa = PBXGroup;
 			children = (
 				7F8EB8A72CA44F6E00E2A07E /* DragAndDrop.swift */,
+				7F8909782CA49EC100415895 /* PlayVideo.swift */,
+				7F0369F62CA5A772003C3221 /* Calendar */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -374,6 +394,7 @@
 				7F3A0D4C2C77D4CA005F4B2C /* Preview Assets.xcassets in Resources */,
 				7FE2F0AA2C88CD740022799E /* ImageViewController.xib in Resources */,
 				7F3A0D492C77D4CA005F4B2C /* Assets.xcassets in Resources */,
+				7F8909772CA49E4900415895 /* Sunset.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,13 +423,16 @@
 				7FE3F24D2C7E615000A6CEB4 /* OtherList.swift in Sources */,
 				7F8EB8A82CA44F6E00E2A07E /* DragAndDrop.swift in Sources */,
 				7FB547232C80E470008EBA9F /* AddContactFeature.swift in Sources */,
+				7F0369F82CA5F379003C3221 /* EventKitUIController.swift in Sources */,
 				7FE2F0AB2C88CD740022799E /* ImageViewController.swift in Sources */,
 				7FE3F2522C7E61A200A6CEB4 /* CounterFeature.swift in Sources */,
+				7F8909792CA49EC100415895 /* PlayVideo.swift in Sources */,
 				7F3A0D6F2C77D9BA005F4B2C /* ContentView.swift in Sources */,
 				7F568C4F2C7D09DF00CDFA3D /* LabeledWedge.swift in Sources */,
 				7F8B3F1A2C90CCD9008491DE /* ShowProgress.swift in Sources */,
 				7F60AB9D2C8B4F1B00A8DAB6 /* ShowClock.swift in Sources */,
 				7F8B3F1C2C90DBC9008491DE /* CircleProgressBar.swift in Sources */,
+				7F0369F52CA5A096003C3221 /* CalendarIntegration.swift in Sources */,
 				7F3A0D712C77DC71005F4B2C /* SpinWithDragGesture.swift in Sources */,
 				7F3A0D432C77D4C8005F4B2C /* SwiftUI_LearningSpaceApp.swift in Sources */,
 				7F568C4B2C7D095600CDFA3D /* CustomViewsList.swift in Sources */,

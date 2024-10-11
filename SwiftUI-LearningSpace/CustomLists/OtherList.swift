@@ -9,8 +9,8 @@ import SwiftUI
 import ComposableArchitecture
 
 struct OtherList: View {
-    var listOfViewLabels = ["Contacts TCA Demo", "Cut Image", "Drag Drop"]
-    var listOfViews : [Screens] = [.tcaDemo, .cutImage, .dragDrop]
+    var listOfViewLabels = ["Contacts TCA Demo", "Cut Image", "Drag and Drop", "Play Video", "Calendar Integration"]
+    var listOfViews : [Screens] = [.tcaDemo, .cutImage, .dragDrop, .playVideo, .calendar]
 
     var body: some View {
         NavigationStack

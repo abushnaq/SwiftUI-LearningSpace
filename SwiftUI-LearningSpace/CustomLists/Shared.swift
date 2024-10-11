@@ -18,6 +18,8 @@ enum Screens {
     case cutImage
     case tcaDemo
     case dragDrop
+    case playVideo
+    case calendar
 }
 
 @ViewBuilder
@@ -39,6 +41,9 @@ enum Screens {
               })
         case .dragDrop:
             DragAndDrop()
-
+        case .playVideo:
+            PlayVideo()
+        case .calendar:
+            CalendarIntegration()
         }
     }
