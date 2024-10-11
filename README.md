@@ -15,7 +15,7 @@ List of controls/animations/things to implement:
 
 Other things:
 1) List of items, with ability to filter and sort. Implement pull to refresh, swipe to delete, add new items.
-2) Calendar integration to add items, remove them, and view them.
-3) Play a video.
+2) Calendar integration to add items, remove them, and view them. DONE
+3) Play a video. DONE
 4) Basic SwiftCharts
 5) Fancy SwiftCharts
